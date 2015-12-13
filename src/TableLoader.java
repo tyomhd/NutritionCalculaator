@@ -46,12 +46,15 @@ public class TableLoader {
          filterField.textProperty().addListener((observable, oldValue, newValue) -> {
           filteredData.setPredicate(food -> {
                 if (newValue == null || newValue.isEmpty()) {
+                    foodTable.setVisible(false);
                     return true;
                 }
+              foodTable.setVisible(true);
 
                 String lowerCaseFilter = newValue.toLowerCase();
 
                 if (food.getToiduNimetus().toLowerCase().indexOf(lowerCaseFilter) != -1) {
+                    //foodTable.setVisible(false);
                     return true;
                 }
                 return false;
@@ -66,6 +69,7 @@ public class TableLoader {
         toiduNimetusColumn.setCellValueFactory(cellData -> cellData.getValue().toiduNimetusProperty());
         toiduNimetusColumn.setMinWidth(500);
         foodTable.getColumns().add(toiduNimetusColumn);
+
 
 //--------------------------------------------------------------------
 

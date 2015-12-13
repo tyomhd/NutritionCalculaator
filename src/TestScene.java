@@ -77,20 +77,25 @@ public class TestScene {
 
 
         });
-        hbox2.getChildren().addAll(ml1,ml2,ml3);
+        hbox2.getChildren().addAll(ml1, ml2, ml3);
 
-        hbox1.getChildren().addAll(r1,r2);
+        hbox1.getChildren().addAll(r1, r2);
 
         TableLoader.setupTable();
         TextField tf = TableLoader.getFilterField();
         tf.setMaxWidth(590);
         TableView<Food> tv = TableLoader.getFoodTable();
         tv.setMaxWidth(590);
+        tv.setMinHeight(450);
+        tv.setVisible(false);
+        StackPane stackPane = new StackPane();
+        stackPane.getChildren().add(tv);
         vbox2.setMinWidth(600);
-        vbox2.getChildren().addAll(tf, tv);
+        vbox2.getChildren().addAll(tf, stackPane);
 
 
-        Rectangle mr1 = new Rectangle(600, 500, Color.YELLOW);
+
+        // Rectangle mr1 = new Rectangle(600, 500, Color.YELLOW);
         Rectangle mr2 = new Rectangle(600, 500, Color.RED);
         Rectangle mr3 = new Rectangle(600, 500, Color.GREEN);
         mainwin.setMaxWidth(1800);
@@ -109,7 +114,6 @@ public class TestScene {
 
 
     }
-
 
 
     private static class MenuLine extends StackPane {
@@ -156,22 +160,10 @@ public class TestScene {
         translateTransition.setCycleCount(1);
         translateTransition.play();
         translateTransition.setOnFinished(e -> mainwin.setTranslateX(to));
-
-
-
-
-
         return translateTransition;
 
     }
 
-    public void play() {
-        translateTransition.play();
-    }
-
-    public void stop() {
-        translateTransition.stop();
-    }
 
 
 
