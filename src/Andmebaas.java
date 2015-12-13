@@ -26,6 +26,7 @@ public class Andmebaas {
             e.printStackTrace();
         }
        // System.out.println("Ühendus suletud");
+        //comment
     }
 
     public double vaataDbDouble(String name, String what) {
