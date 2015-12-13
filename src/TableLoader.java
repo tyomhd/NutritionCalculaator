@@ -69,39 +69,6 @@ public class TableLoader {
 
 //--------------------------------------------------------------------
 
-        /*
-        foodTable.getSelectionModel().selectedItemProperty().addListener( new ChangeListener() {
-
-            public void changed(ObservableValue ov, Object t, Object t1) {
-
-                TableView.TableViewSelectionModel<Food> selectionModel = foodTable.getSelectionModel();
-                ObservableList<TablePosition> selectedCells = selectionModel.getSelectedCells();
-                TablePosition tablePosition = (TablePosition) selectedCells.get(0);
-                int rowIndex = tablePosition.getRow(); // yields the row that the currently selected cell is in
-
-                // I Want to get the cell's text in the row using the row_index or the selected row one
-
-                List<Food> selected = selectionModel.getSelectedItems();
-
-                foodTable.setOnMouseClicked(event -> {
-                    System.out.println(selected.toString());
-                });
-            }
-        });
-*/
-        /*
-        foodTable.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Food>() {
-            @Override
-            public void changed(ObservableValue<? extends Food> observable, Food oldValue, Food newValue) {
-                TableView.TableViewSelectionModel<Food> selectionModel = foodTable.getSelectionModel();
-                List<Food> selected = selectionModel.getSelectedItems();
-
-                foodTable.setOnMouseClicked(event -> {
-                    System.out.println(selected.toString());
-                });
-            }
-        });
-*/
 
 
         foodTable.setOnMouseClicked(event -> {
@@ -116,7 +83,7 @@ public class TableLoader {
 
 
             String[] elements = new String[]{
-                    "ID", "Toidukood" ,"ToidunimiEST","ToidunimiENG","ToidunimiLAT","Sunonuumid,Toidugrupp","Allikas","EnergiashkiudainedkJ",
+                    "ID", "Toidukood" ,"ToidunimiEST","ToidunimiENG","ToidunimiLAT","Sunonuumid", "Toidugrupp","Allikas","EnergiashkiudainedkJ",
                     "Energiashkiudainedkcal","Susivesikudimenduvadg","Rasvadg","Valgudg","Alkoholg","Vesig","Tuhkg","Susivesikudkokkug","Kiudainedg","Tarklisg",
                     "Sahharoosg","Laktoosg","Maltoosg","Glukoosg","Fruktoosg","Galaktoosg","Rasvhappedkokkug","Kullastunudrasvhappedg","Monokullastumatarasvhappedg",
                     "Polukullastumatarasvhappedg","Transrasvhappedg","PalmitiinhapeC16g","SteariinhapeC18g","LinoolhapeC182g","LinoleenhapeC183g","Kolesteroolmg",
@@ -128,9 +95,12 @@ public class TableLoader {
 
             a.looYhendus();
 
-            double energia1 = a.vaataDbDouble(data, elements[7]);
-            double energia2 = a.vaataDbDouble(data, elements[8]);
-            double energi3 = a.vaataDbDouble(data, elements[7]);
+            double energia1 = a.vaataDbDouble(data, elements[8]);
+            double energia2 = a.vaataDbDouble(data, elements[9]);
+            double rasvad = a.vaataDbDouble(data, elements[11]);
+            double valgud = a.vaataDbDouble(data, elements[12]);
+            double susivesikud = a.vaataDbDouble(data, elements[16]);
+            double vesi = a.vaataDbDouble(data, elements[14]);
 
 
 
@@ -138,10 +108,17 @@ public class TableLoader {
                 //    str = str.substring(0, str.length() - 2);
 
 
-
+//------------------------ELEMENTS--------------------------------------------
 
             double kcal =  a.vaataDbDouble(data,"Energiashkiudainedkcal");
+
             System.out.println(kcal + " kcal in 100g");
+            System.out.println("Rasvad : "+ rasvad + " g in 100g");
+            System.out.println("Valgud : "+valgud + " g in 100g");
+            System.out.println("Susivesikud : "+susivesikud + " g in 100g");
+            System.out.println("Vesi : "+vesi + " g in 100g");
+            System.out.println("----------------------");
+
             a.sulgeYhendus();
 
         });

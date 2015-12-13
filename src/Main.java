@@ -17,17 +17,6 @@ public class Main extends Application{
   //new TableLoader();
 
 
-/*
-        try {
-            FXMLLoader loader = new FXMLLoader(Main.class.getResource("FoodTable.fxml"));
-            AnchorPane page = (AnchorPane) loader.load();
-            Scene scene = new Scene(page);
-            primaryStage.setScene(scene);
-            primaryStage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-*/
 
 
 

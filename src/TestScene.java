@@ -98,12 +98,6 @@ public class TestScene {
 
 
 
-
-
-
-
-
-
         vboxMain.getChildren().addAll(hbox1, hbox2, mainwin );
         Scene scene = new Scene(vboxMain);
         stage.setMaxHeight(600);
