@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="078d78b5-4683-4684-b065-1e3d70847ced" name="Default" comment="" />
+    <list default="true" id="078d78b5-4683-4684-b065-1e3d70847ced" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FOODDB.sqlite" afterPath="$PROJECT_DIR$/FOODDB.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader$AddCell.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader$AddCell.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader$RemoveCell.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader$RemoveCell.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="i200-FoodCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,82 +29,7 @@
     <favorites_list name="i200-FoodCalculator" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DietaryReferenceValues.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DietaryReferenceValues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LoginScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElementProgressBar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ElementProgressBar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Getters.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Getters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RegisterScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableLoader.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TableLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9167545">
-              <caret line="201" column="69" selection-start-line="201" selection-start-column="69" selection-end-line="201" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#AddCell#0;class#TableLoader#0" expanded="false" />
-                <element signature="method#AddCell#0;class#AddCell#0;class#TableLoader#0" expanded="false" />
-                <element signature="method#setupUserPlanTable#0;class#TableLoader#0" expanded="false" />
-                <element signature="class#RemoveCell#0;class#TableLoader#0" expanded="false" />
-                <element signature="method#RemoveCell#0;class#RemoveCell#0;class#TableLoader#0" expanded="false" />
-                <element signature="method#updateItem#0;class#RemoveCell#0;class#TableLoader#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/AlertBox.java" />
         <option value="$PROJECT_DIR$/src/TestScene.java" />
         <option value="$PROJECT_DIR$/src/TableLoader.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -175,9 +108,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
-    <option name="width" value="1834" />
-    <option name="height" value="1087" />
+    <option name="x" value="84" />
+    <option name="y" value="-8" />
+    <option name="width" value="1290" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -230,8 +164,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -644,7 +578,7 @@
     <option name="totallyTimeSpent" value="10481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="0" width="1834" height="1087" extended-state="1" />
+    <frame x="84" y="-8" width="1290" height="784" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -654,10 +588,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.6694826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="921" y="98" width="711" height="698" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.6694826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="566" y="331" width="416" height="118" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12321232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1310832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -703,37 +637,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="307" column="0" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
-          <folding>
-            <element signature="method#setupTopMenuButton#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setupSideMenuPane#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setupHeader#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setupProgressBar#0;class#TestScene#0" expanded="false" />
-            <element signature="method#activityButton#0;class#TestScene#0" expanded="false" />
-            <element signature="method#addToListButton#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setupPlanPane#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setMyPlanCellLayout#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setupElementsProgressPane#0;class#TestScene#0" expanded="false" />
-            <element signature="method#translateTransition#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setupDialogBox#0;class#TestScene#0" expanded="false" />
-            <element signature="method#setupActivityDialog#0;class#TestScene#0" expanded="false" />
-            <element signature="method#showAddDialog#0;class#TestScene#0" expanded="false" />
-            <element signature="method#showRemoveDialog#0;class#TestScene#0" expanded="false" />
-            <element signature="method#refreshProgram#0;class#TestScene#0" expanded="false" />
-            <element signature="method#SideMenuLine#0;class#SideMenuLine#0;class#TestScene#0" expanded="false" />
-            <element signature="method#MenuLine#0;class#MenuLine#0;class#TestScene#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -797,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="195" column="65" selection-start-line="195" selection-start-column="65" selection-end-line="195" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,10 +715,30 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#8117#8125#0" expanded="true" />
-            <element signature="e#29353#29369#0" expanded="true" />
-            <element signature="e#34624#34640#0" expanded="true" />
-            <element signature="e#37190#37206#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#connectToDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#closeConnection#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#registerUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#login#0;class#DataBase#0" expanded="false" />
+            <element signature="method#createLoginTable#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#1;class#DataBase#0" expanded="false" />
+            <element signature="method#setUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserSex#0;class#DataBase#0" expanded="false" />
+            <element signature="method#addToUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#removeFromUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserDayElementsSum#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getSumFromUserDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateUserData#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserRV#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getCountByDate#0;class#DataBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,10 +748,30 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding>
-            <element signature="e#8117#8125#0" expanded="true" />
-            <element signature="e#29353#29369#0" expanded="true" />
-            <element signature="e#34624#34640#0" expanded="true" />
-            <element signature="e#37190#37206#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#connectToDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#closeConnection#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#registerUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#login#0;class#DataBase#0" expanded="false" />
+            <element signature="method#createLoginTable#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#1;class#DataBase#0" expanded="false" />
+            <element signature="method#setUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserSex#0;class#DataBase#0" expanded="false" />
+            <element signature="method#addToUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#removeFromUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserDayElementsSum#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getSumFromUserDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateUserData#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserRV#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getCountByDate#0;class#DataBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -867,7 +816,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#AddCell#0;class#TableLoader#0" expanded="false" />
+            <element signature="method#AddCell#0;class#AddCell#0;class#TableLoader#0" expanded="false" />
+            <element signature="method#setupUserPlanTable#0;class#TableLoader#0" expanded="false" />
+            <element signature="class#RemoveCell#0;class#TableLoader#0" expanded="false" />
+            <element signature="method#RemoveCell#0;class#RemoveCell#0;class#TableLoader#0" expanded="false" />
+            <element signature="method#updateItem#0;class#RemoveCell#0;class#TableLoader#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -909,10 +866,30 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding>
-            <element signature="e#8117#8125#0" expanded="true" />
-            <element signature="e#29353#29369#0" expanded="true" />
-            <element signature="e#34624#34640#0" expanded="true" />
-            <element signature="e#37190#37206#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#connectToDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#closeConnection#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#registerUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#login#0;class#DataBase#0" expanded="false" />
+            <element signature="method#createLoginTable#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#1;class#DataBase#0" expanded="false" />
+            <element signature="method#setUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserSex#0;class#DataBase#0" expanded="false" />
+            <element signature="method#addToUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#removeFromUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserDayElementsSum#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getSumFromUserDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateUserData#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserRV#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getCountByDate#0;class#DataBase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1064,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="614" column="0" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3329821">
           <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6603774">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="51" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,14 +1065,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035490606">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3361433">
           <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,43 +1116,6 @@
         <state vertical-scroll-proportion="0.19704953">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2655427">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#connectToDataBase#0;class#DataBase#0" expanded="false" />
-            <element signature="method#closeConnection#0;class#DataBase#0" expanded="false" />
-            <element signature="method#updateDataBase#0;class#DataBase#0" expanded="false" />
-            <element signature="method#registerUser#0;class#DataBase#0" expanded="false" />
-            <element signature="method#login#0;class#DataBase#0" expanded="false" />
-            <element signature="method#createLoginTable#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getDoubleFromDB#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getStringFromDB#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getStringFromDB#1;class#DataBase#0" expanded="false" />
-            <element signature="method#setUserActivity#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getUserActivity#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getUserPlan#0;class#DataBase#0" expanded="false" />
-            <element signature="e#8117#8125#0" expanded="true" />
-            <element signature="method#getUserSex#0;class#DataBase#0" expanded="false" />
-            <element signature="method#addToUsersPlan#0;class#DataBase#0" expanded="false" />
-            <element signature="method#removeFromUsersPlan#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getUserDayElementsSum#0;class#DataBase#0" expanded="false" />
-            <element signature="e#29353#29369#0" expanded="true" />
-            <element signature="method#getSumFromUserDB#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getUser#0;class#DataBase#0" expanded="false" />
-            <element signature="e#34624#34640#0" expanded="true" />
-            <element signature="method#updateUserData#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getUserRV#0;class#DataBase#0" expanded="false" />
-            <element signature="e#37190#37206#0" expanded="true" />
-            <element signature="method#getStringFromUserPlan#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getDoubleFromUserPlan#0;class#DataBase#0" expanded="false" />
-            <element signature="method#getCountByDate#0;class#DataBase#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1227,9 +1155,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegisterScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connectToDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#closeConnection#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateDataBase#0;class#DataBase#0" expanded="false" />
+            <element signature="method#registerUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#login#0;class#DataBase#0" expanded="false" />
+            <element signature="method#createLoginTable#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromDB#1;class#DataBase#0" expanded="false" />
+            <element signature="method#setUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserActivity#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserSex#0;class#DataBase#0" expanded="false" />
+            <element signature="method#addToUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#removeFromUsersPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserDayElementsSum#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getSumFromUserDB#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUser#0;class#DataBase#0" expanded="false" />
+            <element signature="method#updateUserData#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getUserRV#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getStringFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getDoubleFromUserPlan#0;class#DataBase#0" expanded="false" />
+            <element signature="method#getCountByDate#0;class#DataBase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05263158">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegisterScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02631579">
           <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1239,7 +1216,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TableLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9167545">
+        <state vertical-scroll-proportion="0.02631579">
           <caret line="201" column="69" selection-start-line="201" selection-start-column="69" selection-end-line="201" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
