@@ -185,8 +185,6 @@ public class TestScene {
 
 
 
-
-
 //******************************SETUP USER INTERFACE****************************
 
 //---------------------------------- TOP MENU BUTTON-----------------------------
@@ -503,7 +501,6 @@ public class TestScene {
 
 
 
-
 //--------------------------------------2ND WINDOW---------------------------------
     private static TilePane setupPlanPane(int tcarbs, int tprots, int tfats, double ccarbs, double cprots, double cfats){
         TilePane tp = new TilePane();
@@ -724,8 +721,6 @@ public class TestScene {
 
 
 
-
-
 //------------------------------TRANSLATE TRANSITION----------------------------------
     private static TranslateTransition translateTransition(Duration duration, Node node, Integer from, Integer to){
         translateTransition = new TranslateTransition(duration, node);
@@ -736,7 +731,6 @@ public class TestScene {
         translateTransition.setOnFinished(e -> node.setTranslateX(to));
         return translateTransition;
     }
-
 
 
 
@@ -922,8 +916,6 @@ public class TestScene {
 
 
 
-
-
 //*********************************UGLY REFRESH METHOD************************************
 
     public static void refreshProgram(){
@@ -972,7 +964,6 @@ public class TestScene {
 
 
 //***********************************INNER CLASSES************************************
-
 
 
 //-----------------------------------SIDE MENULINE------------------------------------
