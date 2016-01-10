@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="078d78b5-4683-4684-b065-1e3d70847ced" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AlertBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DietaryReferenceValues.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ElementProgressBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Getters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LoginScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PieChart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RegisterScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/text" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DB.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DB.sqlite" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/Andmebaas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/Deleted/FoodTable.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/KT/Answer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Andmebaas.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Deleted/FXMLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Deleted/FoodSearch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Deleted/FoodSearch2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Deleted/FoodTable.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Deleted/MainScene.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/KT/Answer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UserDetails.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/Food.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/Food.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/Main.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TableLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TestScene$MenuLine.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TestScene$MenuLine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TestScene.class" afterPath="$PROJECT_DIR$/out/production/i200-FoodCalculator/TestScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Food.java" afterPath="$PROJECT_DIR$/src/Food.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TableLoader.java" afterPath="$PROJECT_DIR$/src/TableLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestScene.java" afterPath="$PROJECT_DIR$/src/TestScene.java" />
-    </list>
+    <list default="true" id="078d78b5-4683-4684-b065-1e3d70847ced" name="Default" comment="" />
     <ignored path="i200-FoodCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -676,8 +644,8 @@
     <option name="totallyTimeSpent" value="10481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="0" width="1834" height="1087" extended-state="0" />
-    <editor active="true" />
+    <frame x="85" y="0" width="1834" height="1087" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
